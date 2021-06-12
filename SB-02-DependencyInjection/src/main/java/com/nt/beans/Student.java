@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component("std")
-public class Student {
+public final class Student {
 
 	@Autowired()
 	// @Qualifier("php")
