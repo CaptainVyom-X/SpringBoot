@@ -7,11 +7,11 @@ import javax.inject.Named;
 @Named("std")
 public final class Student {
 
-	@Inject
+	// @Inject
 	// @Named("php")
-	@Named("courseId")
+	// @Named("courseId")
 	// @Resource(name = "python")
-	// @Resource(name = "courseId")
+	@Resource(name = "courseId")
 	private ICourseMaterial material; // HAS-A Property
 
 	public Student() {
