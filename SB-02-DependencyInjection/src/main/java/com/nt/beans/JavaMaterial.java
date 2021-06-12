@@ -3,6 +3,7 @@ package com.nt.beans;
 import org.springframework.stereotype.Component;
 
 @Component("java")
+// @Primary
 public final class JavaMaterial implements ICourseMaterial {
 
 	public JavaMaterial() {

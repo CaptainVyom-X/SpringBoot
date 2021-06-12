@@ -26,6 +26,6 @@ public class Student {
 		price = material.price();
 		System.out.println("Student bought books " + courseContent + " for ₹" + price);
 		System.out.println("Student completed preparing for " + examName);
-	}// pepare(-)
+	}// prepare(-)
 
 }// class
