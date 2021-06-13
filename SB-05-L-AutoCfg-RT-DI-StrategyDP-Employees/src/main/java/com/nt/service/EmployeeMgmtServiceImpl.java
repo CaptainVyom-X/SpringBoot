@@ -33,7 +33,8 @@ public class EmployeeMgmtServiceImpl implements IEmployeeMgmtService {
 				buffer.append("'" + desgs[i].toUpperCase() + "', ");
 		} // for
 			// create the condition in String format
-		condition = new String(buffer);
+			// condition = new String(buffer);
+		condition = buffer.toString();
 		// use DAO
 		listBO = dao.getEmpsByDesg(condition);
 		// convert ListDTO to ListBO
